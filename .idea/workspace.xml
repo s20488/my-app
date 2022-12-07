@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0265d0c-0bc5-4297-add3-2eaf61d81355" name="Changes" comment="store, state, ОПП, рефакторинг">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+    <list default="true" id="a0265d0c-0bc5-4297-add3-2eaf61d81355" name="Changes" comment="39. action creator, action type">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="39" />
+        <entry key="$PROJECT_DIR$" value="e674868beb7e2d570f8ceef19d473fed87276649" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,7 +111,7 @@
       <workItem from="1670419638455" duration="5000" />
       <workItem from="1670420515294" duration="167000" />
       <workItem from="1670420691544" duration="134000" />
-      <workItem from="1670420834014" duration="2407000" />
+      <workItem from="1670420834014" duration="8366000" />
     </task>
     <task id="LOCAL-00001" summary="37. store, state, ОПП, рефакторинг">
       <created>1669898699043</created>
@@ -130,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669899151419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="39. action creator, action type">
+      <created>1670423362930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670423362930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="37. store, state, ОПП, рефакторинг" />
     <MESSAGE value="store, state, ОПП, рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="store, state, ОПП, рефакторинг" />
+    <MESSAGE value="39. action creator, action type" />
+    <option name="LAST_COMMIT_MESSAGE" value="39. action creator, action type" />
   </component>
 </project>
