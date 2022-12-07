@@ -1,0 +1,53 @@
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	
++++ b/src/App.js	
+@@ -17,8 +17,7 @@
+                         {/*Для React v6: вместо exact ставим *  для дочерних URL-адресов*/}
+                         <Route path="/dialogs/*" element={<Dialogs state={props.state.dialogsPage}/>}/>
+                         <Route path="/profile/*" element={<Profile profilePage={props.state.profilePage}
+-                                                                   updateNewPostText={props.updateNewPostText}
+-                                                                   addPost={props.addPost}/>}/>
++                                                                   dispatch={props.dispatch}/>}/>
+                     </Routes>
+                 </div>
+             </div>
+Index: src/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.js b/src/index.js
+--- a/src/index.js	
++++ b/src/index.js	
+@@ -9,7 +9,7 @@
+ let rerenderEntireTree = (state) => {
+     root.render(
+         <React.StrictMode>
+-            <App state={state} addPost={store.addPost.bind(store)} updateNewPostText={store.updateNewPostText.bind(store)}/>
++            <App state={state} dispatch={store.dispatch.bind(store)}/>
+         </React.StrictMode>);
+ };
+ 
+Index: src/App.test.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.test.js b/src/App.test.js
+deleted file mode 100644
+--- a/src/App.test.js	
++++ /dev/null	
+@@ -1,8 +0,0 @@
+-import { render, screen } from '@testing-library/react';
+-import App from './App';
+-
+-test('renders learn react link', () => {
+-  render(<App />);
+-  const linkElement = screen.getByText(/learn react/i);
+-  expect(linkElement).toBeInTheDocument();
+-});

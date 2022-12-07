@@ -1,0 +1,161 @@
+Index: src/components/Profile/MyPosts/MyPosts.jsx
+===================================================================
+diff --git a/src/components/Profile/MyPosts/MyPosts.jsx b/src/components/Profile/MyPosts/MyPosts.jsx
+--- a/src/components/Profile/MyPosts/MyPosts.jsx	
++++ b/src/components/Profile/MyPosts/MyPosts.jsx	
+@@ -1,22 +1,22 @@
+ import React from "react";
+ import s from './MyPosts.module.css';
+ import Post from "./Post/Post";
++import {addPostActionCreator, updateNewPostTextActionCreator} from "../../../redux/state";
+ 
+ const MyPosts = (props) => {
+-
+     let messagesElements = props.posts.map(m => <Post message={m.message} likesCount={m.likesCount}/>
+     );
+ 
+     let newPostElement = React.createRef();
+ 
+     let addPost = () => {
+-        props.addPost();
+-        props.updateNewPostText("");
++        props.dispatch(addPostActionCreator());
+     }
+ 
+     let onPostChange = () => {
+         let text = newPostElement.current.value;
+-        props.updateNewPostText(text);
++        let action = updateNewPostTextActionCreator(text);
++        props.dispatch(action);
+     }
+ 
+     return <div className={s.postBlock}>
+Index: src/components/Profile/Profile.jsx
+===================================================================
+diff --git a/src/components/Profile/Profile.jsx b/src/components/Profile/Profile.jsx
+--- a/src/components/Profile/Profile.jsx	
++++ b/src/components/Profile/Profile.jsx	
+@@ -7,8 +7,7 @@
+         <ProfileInfo />
+         <MyPosts posts={props.profilePage.posts}
+                  newPostText={props.profilePage.newPostText}
+-                 updateNewPostText={props.updateNewPostText}
+-                 addPost={props.addPost}/>
++                 dispatch={props.dispatch}/>
+     </div>
+ }
+ 
+Index: src/redux/state.js
+===================================================================
+diff --git a/src/redux/state.js b/src/redux/state.js
+--- a/src/redux/state.js	
++++ b/src/redux/state.js	
+@@ -1,5 +1,8 @@
+ import avatar from '../avatar.jpg'
+ 
++const ADD_POST = 'ADD-POST';
++const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
++
+ let store = {
+     _state: {
+         dialogsPage: {
+@@ -13,11 +16,6 @@
+                 {id: 2, message: 'Hi'},
+                 {id: 3, message: 'Hi'}
+             ],
+-            sidebar: [
+-                {id: 1, name: 'Carl', img: avatar},
+-                {id: 2, name: 'Viktor', img: avatar},
+-                {id: 3, name: 'Leo', img: avatar}
+-            ]
+         },
+ 
+         profilePage: {
+@@ -27,33 +25,45 @@
+             ],
+             newPostText: 'test'
+         },
++
++        sidebar:
++            [
++            {id: 1, name: 'Carl', img: avatar},
++            {id: 2, name: 'Viktor', img: avatar},
++            {id: 3, name: 'Leo', img: avatar}
++        ]
+     },
++    callSubscriber() {
++        console.log('State changed')
++    },
++
+     getState() {
+       return this._state;
+     },
+-    rerenderEntireTree() {
+-        console.log('State changed')
++    subscribe(observer) {
++        this.callSubscriber = observer;
+     },
+-    addPost() {
+-        let newPost = {
+-            id: 5,
+-            message: this._state.profilePage.newPostText,
+-            likesCount: 0
+-        }
++
++    dispatch(action) {
++        if (action.type === 'ADD-POST') {
++            let newPost = {
++                id: 5,
++                message: this._state.profilePage.newPostText,
++                likesCount: 0
++            }
+ 
+-        this._state.profilePage.posts.push(newPost);
+-        this._state.profilePage.newPostText = '';
+-        this.rerenderEntireTree(this._state);
+-    },
+-    updateNewPostText(newText) {
+-        this._state.profilePage.newPostText = newText;
+-        this.rerenderEntireTree(this._state);
+-    },
+-    subscribe(observer) {
+-        this.rerenderEntireTree = observer;
++            this._state.profilePage.posts.push(newPost);
++            this._state.profilePage.newPostText = '';
++            this.callSubscriber(this._state);
++        } else if (action.type === 'UPDATE-NEW-POST-TEXT') {
++            this._state.profilePage.newPostText = action.newText;
++            this.callSubscriber(this._state);
++        }
+     }
+ }
+ 
+-window.store = store;
++export const addPostActionCreator = () => ({type: ADD_POST});
++
++export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
+ 
+ export default store;
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+--- a/.idea/inspectionProfiles/Project_Default.xml	
++++ b/.idea/inspectionProfiles/Project_Default.xml	
+@@ -2,5 +2,15 @@
+   <profile version="1.0">
+     <option name="myName" value="Project Default" />
+     <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
++    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="myValues">
++        <value>
++          <list size="1">
++            <item index="0" class="java.lang.String" itemvalue="class" />
++          </list>
++        </value>
++      </option>
++      <option name="myCustomValuesEnabled" value="true" />
++    </inspection_tool>
+   </profile>
+ </component>
+\ No newline at end of file
