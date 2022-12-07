@@ -1,0 +1,186 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0265d0c-0bc5-4297-add3-2eaf61d81355\" name=\"Changes\" comment=\"39. action creator, action type\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/redux/state.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/redux/state.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"e674868beb7e2d570f8ceef19d473fed87276649\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2GGZVsgL1eEl67CycC3DKprwU8w\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/user/react-way-of-samurai\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"ts.external.directory.path\": \"C:\\\\Program Files\\\\JetBrains\\\\WebStorm 2022.2.3\\\\plugins\\\\JavaScriptLanguage\\\\jsLanguageServicesImpl\\\\external\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\my-app\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Dialogs\\Message\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Dialogs\\DialogItem\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Profile\\Profile\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Navbar\\BlockFriends\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Profile\\ProfileInfo\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Profile\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Profile\\Profile\" />\r\n      <recent name=\"C:\\Users\\user\\reactjs_tutorials\\04\\my-app\\src\\components\\Profile\\MyPosts\\Post\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a0265d0c-0bc5-4297-add3-2eaf61d81355\" name=\"Changes\" comment=\"\" />\r\n      <created>1666016908167</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1666016908167</updated>\r\n      <workItem from=\"1666016910746\" duration=\"1608000\" />\r\n      <workItem from=\"1666104645045\" duration=\"3947000\" />\r\n      <workItem from=\"1666187739247\" duration=\"7510000\" />\r\n      <workItem from=\"1666267638189\" duration=\"9232000\" />\r\n      <workItem from=\"1666708653723\" duration=\"3834000\" />\r\n      <workItem from=\"1666712542587\" duration=\"675000\" />\r\n      <workItem from=\"1666789408570\" duration=\"11692000\" />\r\n      <workItem from=\"1666876947224\" duration=\"7777000\" />\r\n      <workItem from=\"1666957838087\" duration=\"10216000\" />\r\n      <workItem from=\"1668268175828\" duration=\"2000\" />\r\n      <workItem from=\"1668268220892\" duration=\"3000\" />\r\n      <workItem from=\"1668972604483\" duration=\"22000\" />\r\n      <workItem from=\"1669156893287\" duration=\"2000\" />\r\n      <workItem from=\"1669293022588\" duration=\"9899000\" />\r\n      <workItem from=\"1669631939817\" duration=\"10784000\" />\r\n      <workItem from=\"1669713296115\" duration=\"5987000\" />\r\n      <workItem from=\"1669807524112\" duration=\"7201000\" />\r\n      <workItem from=\"1669838625487\" duration=\"897000\" />\r\n      <workItem from=\"1669879484966\" duration=\"7020000\" />\r\n      <workItem from=\"1669891784390\" duration=\"927000\" />\r\n      <workItem from=\"1669897586519\" duration=\"205000\" />\r\n      <workItem from=\"1669898441264\" duration=\"975000\" />\r\n      <workItem from=\"1669900348975\" duration=\"626000\" />\r\n      <workItem from=\"1669971666890\" duration=\"9826000\" />\r\n      <workItem from=\"1670413316776\" duration=\"1637000\" />\r\n      <workItem from=\"1670416671216\" duration=\"241000\" />\r\n      <workItem from=\"1670416922485\" duration=\"1400000\" />\r\n      <workItem from=\"1670418342280\" duration=\"658000\" />\r\n      <workItem from=\"1670419013075\" duration=\"582000\" />\r\n      <workItem from=\"1670419638455\" duration=\"5000\" />\r\n      <workItem from=\"1670420515294\" duration=\"167000\" />\r\n      <workItem from=\"1670420691544\" duration=\"134000\" />\r\n      <workItem from=\"1670420834014\" duration=\"8366000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"37. store, state, ОПП, рефакторинг\">\r\n      <created>1669898699043</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669898699043</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"store, state, ОПП, рефакторинг\">\r\n      <created>1669899151419</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669899151419</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"39. action creator, action type\">\r\n      <created>1670423362930</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670423362930</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"37. store, state, ОПП, рефакторинг\" />\r\n    <MESSAGE value=\"store, state, ОПП, рефакторинг\" />\r\n    <MESSAGE value=\"39. action creator, action type\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"39. action creator, action type\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 017513161156a64f51d4a5ae5815c8c14fc7cf6c)
++++ b/.idea/workspace.xml	(date 1670436204203)
+@@ -1,172 +1,21 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="a0265d0c-0bc5-4297-add3-2eaf61d81355" name="Changes" comment="39. action creator, action type">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+-    </list>
++    <list default="true" id="f64b171d-7183-4fef-8fa1-0bc0d1027273" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="JavaScript File" />
+-        <option value="CSS File" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="e674868beb7e2d570f8ceef19d473fed87276649" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="MarkdownSettingsMigration">
+-    <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="ProjectId" id="2GGZVsgL1eEl67CycC3DKprwU8w" />
+   <component name="ProjectLevelVcsManager">
+     <ConfirmationsSetting value="1" id="Add" />
+-  </component>
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/user/react-way-of-samurai",
+-    "list.type.of.created.stylesheet": "CSS",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+-    "vue.rearranger.settings.migration": "true"
++    "last_opened_file_path": "C:/Users/user/reactjs_tutorials/my-app"
+   }
+ }]]></component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\Users\user\reactjs_tutorials\my-app" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Dialogs\Message" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Dialogs\DialogItem" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Profile\Profile" />
+-    </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Navbar\BlockFriends" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Profile\ProfileInfo" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Profile" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Profile\Profile" />
+-      <recent name="C:\Users\user\reactjs_tutorials\04\my-app\src\components\Profile\MyPosts\Post" />
+-    </key>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="a0265d0c-0bc5-4297-add3-2eaf61d81355" name="Changes" comment="" />
+-      <created>1666016908167</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1666016908167</updated>
+-      <workItem from="1666016910746" duration="1608000" />
+-      <workItem from="1666104645045" duration="3947000" />
+-      <workItem from="1666187739247" duration="7510000" />
+-      <workItem from="1666267638189" duration="9232000" />
+-      <workItem from="1666708653723" duration="3834000" />
+-      <workItem from="1666712542587" duration="675000" />
+-      <workItem from="1666789408570" duration="11692000" />
+-      <workItem from="1666876947224" duration="7777000" />
+-      <workItem from="1666957838087" duration="10216000" />
+-      <workItem from="1668268175828" duration="2000" />
+-      <workItem from="1668268220892" duration="3000" />
+-      <workItem from="1668972604483" duration="22000" />
+-      <workItem from="1669156893287" duration="2000" />
+-      <workItem from="1669293022588" duration="9899000" />
+-      <workItem from="1669631939817" duration="10784000" />
+-      <workItem from="1669713296115" duration="5987000" />
+-      <workItem from="1669807524112" duration="7201000" />
+-      <workItem from="1669838625487" duration="897000" />
+-      <workItem from="1669879484966" duration="7020000" />
+-      <workItem from="1669891784390" duration="927000" />
+-      <workItem from="1669897586519" duration="205000" />
+-      <workItem from="1669898441264" duration="975000" />
+-      <workItem from="1669900348975" duration="626000" />
+-      <workItem from="1669971666890" duration="9826000" />
+-      <workItem from="1670413316776" duration="1637000" />
+-      <workItem from="1670416671216" duration="241000" />
+-      <workItem from="1670416922485" duration="1400000" />
+-      <workItem from="1670418342280" duration="658000" />
+-      <workItem from="1670419013075" duration="582000" />
+-      <workItem from="1670419638455" duration="5000" />
+-      <workItem from="1670420515294" duration="167000" />
+-      <workItem from="1670420691544" duration="134000" />
+-      <workItem from="1670420834014" duration="8366000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="37. store, state, ОПП, рефакторинг">
+-      <created>1669898699043</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1669898699043</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="store, state, ОПП, рефакторинг">
+-      <created>1669899151419</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1669899151419</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="39. action creator, action type">
+-      <created>1670423362930</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1670423362930</updated>
+-    </task>
+-    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="origin/master" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="37. store, state, ОПП, рефакторинг" />
+-    <MESSAGE value="store, state, ОПП, рефакторинг" />
+-    <MESSAGE value="39. action creator, action type" />
+-    <option name="LAST_COMMIT_MESSAGE" value="39. action creator, action type" />
+-  </component>
+ </project>
+\ No newline at end of file
