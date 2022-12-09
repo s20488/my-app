@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Dialogs from "../Dialogs";
-import {sendMessageCreator, updateNewMessageBodyCreator} from "../../../redux/dialogs-reducer";
+import Dialogs from "./Dialogs";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogs-reducer";
 
 const DialogsContainer = (props) => {
 
