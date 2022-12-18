@@ -83,4 +83,4 @@ export default UsersContainer = connect(mapStateToProps, {
     setUsers,
     setCurrentPage,
     setTotalUsersCount,
-    setIsFetching})(UsersContainer);;
+    setIsFetching})(UsersContainer);
